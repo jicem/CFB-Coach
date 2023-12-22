@@ -1463,7 +1463,7 @@ public class Team {
             newCoachTeamChanges();
             HC.remove(0);
             league.newsStories.get(league.currentWeek + 1).add(name + " Coaching Retirement>" + oldCoach + " has announced his retirement at the age of " + age +
-                    ". His former team, " + name + " have not announced a new successor to replace the retired coach. Coach " + oldCoach + " had a career record of " + wins + "-" + losses + ".");
+                    ". His former team, " + name + " have not announced a successor to replace the retired coach. Coach " + oldCoach + " had a career record of " + wins + "-" + losses + ".");
         }
 
         if (!retired) {
@@ -1552,7 +1552,7 @@ public class Team {
             if (newContract && proveIt)
                 contractString = "You've been given an additional " + HC.get(0).contractLength + " year contract based on the recent success of your team and not the disappointing past history!";
             else if (newContract) {
-                contractString = "Congratulations! You've been award with a new contract extension for " + HC.get(0).contractLength + " years!";
+                contractString = "Congratulations! You've been awarded with a new contract extension for " + HC.get(0).contractLength + " years!";
             } else if (fired) {
                 contractString = "Due to your poor performance as head coach, the Athletic Director has terminated your contract and you are no longer Head Coach of this school.";
             } else {
