@@ -3483,7 +3483,7 @@ public class Game implements Serializable {
             } else if (awayTeam.rankTeamPollScore < 26 && homeTeam.rankTeamPollScore < 26 && !awayTeam.name.contains("FCS") && !homeTeam.name.contains("FCS")) {
                 homeTeam.league.newsStories.get(0).add("Kick-Off: #" + awayTeam.rankTeamPollScore + " " + awayTeam.name + " vs #" +
                         homeTeam.rankTeamPollScore + " " + homeTeam.name + ">The " + homeTeam.league.getYear() + " season starts off with " + awayTeam.name + " visiting " + homeTeam.name
-                        + " in one of the interesting early season games pitting two ranked teams. " + awayTeam.name + " plays a " + awayTeam.playbookOff.getStratName() + " offense, while " + homeTeam.name + " plays a " +
+                        + " in an interesting early season game pitting two ranked teams against each other. " + awayTeam.name + " plays a " + awayTeam.playbookOff.getStratName() + " offense, while " + homeTeam.name + " plays a " +
                         homeTeam.playbookOff.getStratName() + " offense.");
             }
         }
